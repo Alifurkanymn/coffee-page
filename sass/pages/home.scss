@@ -1,0 +1,159 @@
+.content{
+   &__comment{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-top: 133px;
+      &-text{
+         margin-right: 34px;
+
+         h1{
+            font-size: 20px;
+         }
+         p{
+            margin-top: 15px;
+            line-height: 1.6em;
+            font-size: 15px;
+         }
+      }
+
+      &-img{
+         img{
+            width: 379px;
+            height: 255px;
+            object-fit: cover;
+         }
+      }
+
+   }
+}
+
+.block-content{
+   opacity: 0.2;
+   align-items: center;
+   margin-left: -30px;
+   hr{
+      margin-top: 75px;
+      width: 985px;
+   }
+}
+
+
+
+.products{
+   @extend .column;
+   &__images{
+      img{
+         width: 626px;
+         height: 626px;
+      }
+
+      &-block{
+         align-items: center;
+         margin-left: -30px;
+         opacity: 0.2;
+         hr{
+            margin-top: 75px;
+            width: 985px;
+         }
+      }
+   }
+   &__coffe{
+      margin-top: 75px;
+      display: flex;
+      flex-direction: column;
+      &-text{
+         color: $red-color;
+      }
+      &-menu{
+         margin-top: 34px;
+         display: flex;
+         img{
+            margin-right: 34px;
+         }
+      }
+      &-button{
+         text-align: center;
+         margin-top: 34px;
+      }
+
+      &-block{
+         align-items: center;
+         margin-left: -30px;
+         hr{
+            opacity: 0.2;
+            margin-top: 75px;
+            width: 985px;
+         }
+      }
+   }
+
+   &__coffe-second{
+      position: relative;
+      margin-top: 75px;
+      display: flex;
+      img{
+         object-fit: cover;
+         width: 461px;
+         height: 388px;
+         margin-right: 34px;
+      }
+   }
+}
+
+
+.info{
+   @extend .column;
+   &__content{
+      text-align: center;
+
+      h1{
+         color: $red-color;
+      }
+      p{
+         margin-top: 15px;
+         line-height: 1.6em;
+         font-size: 15px;
+         color: $footer-text-color;
+      }
+
+      &-button{
+         text-align: center;
+         margin-top: 34px;
+      }
+   }
+   
+}
+
+
+
+.journal{
+   @extend .column;
+   &__content{
+      &-text{
+         h1{
+         font-size: 20px;
+         font-weight: 400;
+         }
+      }
+      &-img{
+         display: flex;
+         justify-content: center;
+         margin-top: 66px;
+         img{
+            width: 305px;
+            height: 305px;
+            margin-right: 34px;
+            object-fit: cover;
+         }
+         p{
+            margin-top: 14px;
+            transition: 0.3s;
+         }
+         p:hover{
+            color: $red-color;
+            transition: 0.3s;
+         }
+      }
+   }
+}
