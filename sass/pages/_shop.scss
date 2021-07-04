@@ -1,28 +1,30 @@
 @import "../layout/header.scss";
 @import "../layout/footer.scss";
-
-.shop{
-    &__products{
-        ul{
+.shop {
+    &__products {
+        ul {
             margin: 96px 15% 0 15%;
-            li{
-                @include grid(3,1%);
+            li {
+                @include grid(3, 1%);
                 margin-top: 34px;
                 text-align: center;
-
-                h2{
+                h1 {
+                    position: absolute;
+                    text-decoration: underline;
+                    margin-top: -150px;
+                    margin-left: 140px;
+                    display: none;
+                }
+                h2 {
                     font-size: 20px;
                     margin-top: 34px;
                 }
-
-                h6{
+                h6 {
                     margin-top: 19px;
                 }
-
-                button{
+                button {
                     margin-top: 34px;
                 }
-                
             }
         }
     }

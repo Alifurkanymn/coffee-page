@@ -728,6 +728,12 @@ header {
     text-align: center; }
     .shop__products ul li:nth-child(3n) {
       margin-right: 0; }
+    .shop__products ul li h1 {
+      position: absolute;
+      text-decoration: underline;
+      margin-top: -150px;
+      margin-left: 140px;
+      display: none; }
     .shop__products ul li h2 {
       font-size: 20px;
       margin-top: 34px; }
