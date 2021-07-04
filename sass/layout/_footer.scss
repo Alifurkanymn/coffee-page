@@ -1,0 +1,39 @@
+.footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 98px;
+   background-color: $footer-back-color;
+   &__stay{
+      margin-top: 100px;
+      &-text{
+         text-align: center;
+
+         h1{
+            font-size: 30px;
+            color: $footer-text-color;
+         }
+         p{
+            color: $footer-text-color;
+            margin-top: 17px;
+         }
+      }
+
+      &-signup{
+         margin-top: 32px;
+         display: flex;
+         margin-bottom: 100px;
+
+         &-input{
+            input{
+               background: $white-color;
+               width: 244px;
+               height: 45px;
+               border: 0.1px solid $input-color;
+               margin-right: 10px;
+               color: $input-color;
+            }
+         }
+      }
+   }
+}

@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-@import "../sass/base/normailze.scss";
-@import "../sass/components/button.scss";
-@import "../sass/base/typography.scss";
-@import "../sass/abstracts/veribles.scss";
-@import "../sass/layout/header.scss";
-@import "../sass/layout/footer.scss";
-@import "../sass/pages/home.scss";
 @import "../sass/abstracts/extend.scss";
+@import "../sass/abstracts/mixin.scss";
+@import "../sass/abstracts/veribles.scss";
+@import "../sass/base/normailze.scss";
+@import "../sass/base/typography.scss";
+@import "../sass/components/button.scss";
+@import "../sass/layout/footer.scss";
+@import "../sass/layout/header.scss";
+@import "../sass/pages/home.scss";
+@import "../sass/pages/shop";
+
+
 
 
 

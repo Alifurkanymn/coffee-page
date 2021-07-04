@@ -1,11 +1,22 @@
 {
-  "name": "workshop-coffe",
+  "name": "coffee-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alifurkanymn/coffee-page.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alifurkanymn/coffee-page/issues"
+  },
+  "homepage": "https://github.com/Alifurkanymn/coffee-page#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
 }
